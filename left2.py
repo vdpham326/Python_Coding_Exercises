@@ -9,4 +9,4 @@ def left2(str):
 
 print(left2("Hello"))
 print(left2('java'))
-print(left2('Hi'))
+print(left2('Hi')) 
