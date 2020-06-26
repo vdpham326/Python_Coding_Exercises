@@ -6,12 +6,10 @@
 # therwise the result is 1 (maybe).
 
 def date_fashion(you, date):
-  
-    if you >= 8 or date >= 8:
-        if you <= 2 or date <= 2:
-            value = 2
-    elif you <= 2 or date <= 2:
+    if you <= 2 or date <= 2:
         value = 0
+    elif you >= 8 or date >= 8:
+        value = 2
     else:
         value = 1
     return value
